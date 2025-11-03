@@ -1,4 +1,6 @@
-/* Base Styles */
+/* =========================================================
+   BASE STYLES
+========================================================= */
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #ffffff;
@@ -17,39 +19,17 @@ img {
   height: auto;
 }
 
-/* Logo Image */
+/* =========================================================
+   LOGO
+========================================================= */
 .logo-img {
   width: 80px;
   height: auto;
 }
 
-/* Welcome Section */
-.welcome-section {
-  background-color: #ffffff;
-}
-
-.hamster-img {
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.welcome-title {
-  font-family: 'Dosis', sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  color: #1A1B26;
-  margin-bottom: 20px;
-}
-
-.welcome-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-  color: #1A1B26;
-  line-height: 1.6;
-}
-
-/* Header */
+/* =========================================================
+   HEADER & NAVBAR
+========================================================= */
 .custom-header {
   background-color: #000032;
 }
@@ -84,8 +64,9 @@ img {
   justify-content: center;
 }
 
-/* Hero Section */
-
+/* =========================================================
+   HERO SECTION
+========================================================= */
 .hero-bg {
   background: url(/hotelMarkupAssets/bg.jpg) no-repeat center center;
   background-size: cover;
@@ -107,7 +88,51 @@ img {
   margin-top: 10px;
 }
 
-/* Feature Highlights */
+/* =========================================================
+   WELCOME SECTION
+========================================================= */
+.welcome-section {
+  background-color: #ffffff;
+}
+
+.hamster-img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #1A1B26;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #1A1B26;
+  line-height: 1.6;
+}
+
+/* Emblem Icons */
+.emblem-icon {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.emblem-label {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1A1B26;
+}
+
+/* =========================================================
+   FEATURES SECTION
+========================================================= */
 .features-section {
   background-color: #E5FEFF;
 }
@@ -125,21 +150,9 @@ img {
   color: #1A1B26;
 }
 
-/* Emblem Icons Below Welcome Text */
-.emblem-icon {
-  width: 80px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.emblem-label {
-  font-family: 'Dosis', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: #1A1B26;
-}
-
-/* Our Rooms Section */
+/* =========================================================
+   ROOMS SECTION
+========================================================= */
 .rooms-section {
   background-color: #ffffff;
   background-image: url(/hotelMarkupAssets/bg2.jpg);
@@ -176,7 +189,7 @@ img {
   margin-bottom: 5px;
 }
 
-/* Reserve Button Styling */
+/* Room Reserve Button */
 .rooms-section .btn {
   background-color: #004CC7;
   color: #ffffff;
@@ -194,7 +207,9 @@ img {
   color: #ffffff;
 }
 
-/* Packages Section */
+/* =========================================================
+   PACKAGES SECTION
+========================================================= */
 .packages-section {
   background-color: #ffffff;
 }
@@ -236,10 +251,11 @@ img {
   line-height: 1.5;
 }
 
-/* Amenities Section */
+/* =========================================================
+   AMENITIES SECTION
+========================================================= */
 .amenities-section {
   background-image: url(/hotelMarkupAssets/bg.jpg);
-
 }
 
 .amenities-title {
@@ -249,17 +265,14 @@ img {
   color: white;
 }
 
-/* Amenities Intro Text */
 .amenities-intro {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: #ffffff;
-  /* ← white text */
   max-width: 700px;
   margin: 0 auto 2rem;
   line-height: 1.6;
 }
-
 
 .amenity-icon {
   width: 60px;
@@ -274,7 +287,9 @@ img {
   color: white;
 }
 
-/* Inline Reservation Section */
+/* =========================================================
+   RESERVATION SECTION
+========================================================= */
 .reservation-inline-section {
   background: url(/hotelMarkupAssets/hamsterreserve.jpg) no-repeat center center;
   background-size: cover;
@@ -320,9 +335,9 @@ img {
   background-color: #0039a6;
 }
 
-
-
-/* Dining Section */
+/* =========================================================
+   DINING SECTION
+========================================================= */
 .dining-title {
   font-family: 'Dosis', sans-serif;
   font-size: 35px;
@@ -334,20 +349,20 @@ img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer - MODIFIED */
+/* =========================================================
+   FOOTER
+========================================================= */
 .footer {
   background-color: #000032;
-  /* Use your existing dark navy color */
   color: #ffffff;
-  /* White text for the footer content */
   font-size: 0.9rem;
   padding-top: 3rem;
-  /* Add some padding above the text */
   padding-bottom: 3rem;
-  /* Add some padding below the text */
 }
 
-/* Responsive Tweaks */
+/* =========================================================
+   RESPONSIVE DESIGN
+========================================================= */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2rem;
