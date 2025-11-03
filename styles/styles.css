@@ -5,7 +5,9 @@ body {
   color: #1A1B26;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Dosis', sans-serif;
   font-weight: 600;
 }
@@ -83,7 +85,8 @@ img {
 }
 
 /* Hero Section */
-.hero-section {
+
+.hero-bg {
   background: url(/hotelMarkupAssets/bg.jpg) no-repeat center center;
   background-size: cover;
   height: 80vh;
@@ -236,6 +239,7 @@ img {
 /* Amenities Section */
 .amenities-section {
   background-image: url(/hotelMarkupAssets/bg.jpg);
+
 }
 
 .amenities-title {
@@ -249,7 +253,8 @@ img {
 .amenities-intro {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
-  color: #ffffff; /* ← white text */
+  color: #ffffff;
+  /* ← white text */
   max-width: 700px;
   margin: 0 auto 2rem;
   line-height: 1.6;
@@ -331,11 +336,15 @@ img {
 
 /* Footer - MODIFIED */
 .footer {
-    background-color: #000032; /* Use your existing dark navy color */
-    color: #ffffff; /* White text for the footer content */
-    font-size: 0.9rem;
-    padding-top: 3rem; /* Add some padding above the text */
-    padding-bottom: 3rem; /* Add some padding below the text */
+  background-color: #000032;
+  /* Use your existing dark navy color */
+  color: #ffffff;
+  /* White text for the footer content */
+  font-size: 0.9rem;
+  padding-top: 3rem;
+  /* Add some padding above the text */
+  padding-bottom: 3rem;
+  /* Add some padding below the text */
 }
 
 /* Responsive Tweaks */
