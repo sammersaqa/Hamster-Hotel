@@ -64,6 +64,10 @@ img {
   justify-content: center;
 }
 
+.bottomNAV {
+  padding-bottom: 50px;
+}
+
 /* =========================================================
    HERO SECTION
 ========================================================= */
@@ -108,7 +112,7 @@ img {
 
 .hamster-img {
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 0px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -181,7 +185,7 @@ img {
 
 .room-img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 0px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
