@@ -114,7 +114,7 @@ img {
   font-family: 'Dosis', sans-serif;
   font-size: 32px;
   font-weight: 600;
-  color: white;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -265,6 +265,7 @@ img {
 ========================================================= */
 .amenities-section {
   background-image: url(/hotelMarkupAssets/bg.jpg);
+  margin-bottom: 70px;
 }
 
 .amenities-title {
@@ -301,13 +302,16 @@ img {
 ========================================================= */
 
 .cont {
-  background-color: white;
+  background-color:#000324 ;
+  width: 75%;
+  margin-bottom: 2.5px;
 }
 
 .reservation-inline-section {
   background: url(/hotelMarkupAssets/hamsterreserve.jpg) no-repeat center center;
-  background-size: cover;
+  height: 600px;
   padding: 5rem 0;
+  margin-bottom: 80px;
   
 }
 
@@ -315,13 +319,14 @@ img {
   font-family: 'Dosis', sans-serif;
   font-size: 36px;
   font-weight: 600;
-  color: #ffffff;
+  color: white;
 }
 
 .reservation-inline-form .form-label {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   margin-bottom: 5px;
+  
 }
 
 .reservation-inline-form input,
