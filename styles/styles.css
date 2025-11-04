@@ -81,10 +81,11 @@ img {
 .hero-title {
   font-size: 45px;
   color: #ffffff;
+
 }
 
 .hero-subtitle {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   margin-top: 10px;
 }
@@ -93,8 +94,9 @@ img {
   background: linear-gradient(rgba(27, 13, 151, 0.633), rgba(0, 76, 199, 0.4));
   top: 253px;
   left: 488px;
-  width: 945px;
+  width: 1000px;
   height: 232px;
+  text-align: center;
 }
 
 /* =========================================================
@@ -174,7 +176,7 @@ img {
   font-family: 'Dosis', sans-serif;
   font-size: 36px;
   font-weight: 600;
-  color: #1A1B26;
+  color: white;
 }
 
 .room-img {
@@ -302,7 +304,7 @@ img {
 ========================================================= */
 
 .cont {
-  background-color:#000324 ;
+  background-color: #000324;
   width: 75%;
   padding-bottom: 5px;
 }
@@ -312,7 +314,7 @@ img {
   height: 600px;
   padding: 5rem 0;
   margin-bottom: 80px;
-  
+
 }
 
 .reserveImg {
@@ -330,7 +332,7 @@ img {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   margin-bottom: 5px;
-  
+
 }
 
 .reservation-inline-form input,
