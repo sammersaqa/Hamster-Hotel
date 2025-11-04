@@ -1,5 +1,5 @@
 /* =========================================================
-   BASE STYLES
+   BASE STYLES
 ========================================================= */
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -20,7 +20,7 @@ img {
 }
 
 /* =========================================================
-   LOGO
+   LOGO
 ========================================================= */
 .logo-img {
   width: 80px;
@@ -28,7 +28,7 @@ img {
 }
 
 /* =========================================================
-   HEADER & NAVBAR
+   HEADER & NAVBAR
 ========================================================= */
 .custom-header {
   background-color: #000032;
@@ -65,12 +65,13 @@ img {
 }
 
 /* =========================================================
-   HERO SECTION
+   HERO SECTION
 ========================================================= */
 .hero-bg {
-  background: url(/hotelMarkupAssets/bg.jpg) no-repeat center center;
+  background: url(/hotelMarkupAssets/header.jpg);
+  background-position: center center;
   background-size: cover;
-  height: 80vh;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,8 +89,16 @@ img {
   margin-top: 10px;
 }
 
+.bg-box {
+  background: linear-gradient(rgba(27, 13, 151, 0.633), rgba(0, 76, 199, 0.4));
+  top: 253px;
+  left: 488px;
+  width: 945px;
+  height: 232px;
+}
+
 /* =========================================================
-   WELCOME SECTION
+   WELCOME SECTION
 ========================================================= */
 .welcome-section {
   background-color: #ffffff;
@@ -105,7 +114,7 @@ img {
   font-family: 'Dosis', sans-serif;
   font-size: 32px;
   font-weight: 600;
-  color: #1A1B26;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -131,7 +140,7 @@ img {
 }
 
 /* =========================================================
-   FEATURES SECTION
+   FEATURES SECTION
 ========================================================= */
 .features-section {
   background-color: #E5FEFF;
@@ -151,7 +160,7 @@ img {
 }
 
 /* =========================================================
-   ROOMS SECTION
+   ROOMS SECTION
 ========================================================= */
 .rooms-section {
   background-color: #ffffff;
@@ -208,7 +217,7 @@ img {
 }
 
 /* =========================================================
-   PACKAGES SECTION
+   PACKAGES SECTION
 ========================================================= */
 .packages-section {
   background-color: #ffffff;
@@ -252,7 +261,7 @@ img {
 }
 
 /* =========================================================
-   AMENITIES SECTION
+   AMENITIES SECTION
 ========================================================= */
 .amenities-section {
   background-image: url(/hotelMarkupAssets/bg.jpg);
@@ -288,7 +297,7 @@ img {
 }
 
 /* =========================================================
-   RESERVATION SECTION
+   RESERVATION SECTION
 ========================================================= */
 .reservation-inline-section {
   background: url(/hotelMarkupAssets/hamsterreserve.jpg) no-repeat center center;
@@ -336,7 +345,7 @@ img {
 }
 
 /* =========================================================
-   DINING SECTION
+   DINING SECTION
 ========================================================= */
 .dining-title {
   font-family: 'Dosis', sans-serif;
@@ -350,7 +359,7 @@ img {
 }
 
 /* =========================================================
-   FOOTER
+   FOOTER
 ========================================================= */
 .footer {
   background-color: #000032;
@@ -361,7 +370,7 @@ img {
 }
 
 /* =========================================================
-   RESPONSIVE DESIGN
+   RESPONSIVE DESIGN
 ========================================================= */
 @media (max-width: 768px) {
   .hero-title {
