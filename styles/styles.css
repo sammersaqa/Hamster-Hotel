@@ -270,7 +270,9 @@ img {
    AMENITIES SECTION
 ========================================================= */
 .amenities-section {
-  background-image: url(/hotelMarkupAssets/bg.jpg);
+  background-image:url(/hotelMarkupAssets/bg.jpg);
+  background-size:  cover;
+  background-repeat: no-repeat;
   margin-bottom: 70px;
 }
 
