@@ -112,7 +112,7 @@ img {
 
 .welcome-title {
   font-family: 'Dosis', sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 600;
   color: black;
   margin-bottom: 20px;
@@ -120,21 +120,21 @@ img {
 
 .welcome-text {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #1A1B26;
   line-height: 1.6;
 }
 
 /* Emblem Icons */
 .emblem-icon {
-  width: 80px;
+  width: 150px;
   height: auto;
   margin-bottom: 10px;
 }
 
 .emblem-label {
   font-family: 'Dosis', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   color: #1A1B26;
 }
