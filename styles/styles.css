@@ -304,15 +304,19 @@ img {
 .cont {
   background-color:#000324 ;
   width: 75%;
-  margin-bottom: 2.5px;
+  padding-bottom: 5px;
 }
 
 .reservation-inline-section {
-  background: url(/hotelMarkupAssets/hamsterreserve.jpg) no-repeat center center;
+  /* background: url(/hotelMarkupAssets/hamsterreserve.jpg) no-repeat center center; */
   height: 600px;
   padding: 5rem 0;
   margin-bottom: 80px;
   
+}
+
+.reserveImg {
+  width: 55.6%;
 }
 
 .reservation-title {
@@ -353,6 +357,7 @@ img {
 
 .reserve-btn:hover {
   background-color: #0039a6;
+
 }
 
 /* =========================================================
