@@ -14,8 +14,15 @@
 
 ## 🗓️ Revision History
 
-### Date Revised: November 4, 2025  
-**Exercise Name:** Hamster Hotel Web Build  
+### Date Revised: Wednesday November 5, 2025
+**Description:**  
+- Made my website work better on phones and tablets
+- Changed layout so things stack nicely on small screens
+- Adjusted font sizes and spacing to look good everywhere
+- Tested it on different devices to make sure it looks righ
+
+
+### Date Revised: Tuesday November 4, 2025  
 **Description:**  
 - Built modular HTML structure from scratch based on Adobe XD mockup  
 - Implemented Flexbox layout for welcome section with image and text  
@@ -27,7 +34,7 @@
 
 ---
 
-### Date Revised: November 3, 2025  
+### Date Revised: Monday November 3, 2025  
 **Description:**  
 - Set up base HTML and CSS files  
 - Linked Google Fonts (Dosis and Source Sans Pro)  
