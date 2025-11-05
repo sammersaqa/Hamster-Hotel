@@ -129,7 +129,7 @@ img {
 }
 
 .hamster-img {
-  max-width: 100%;
+  max-width: 70%;
   border-radius: 0px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -143,10 +143,14 @@ img {
 }
 
 .welcome-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 22px;
-  color: #1A1B26;
   line-height: 1.6;
+  text-align: left;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
+
 }
 
 /* Emblem Icons */
@@ -452,7 +456,7 @@ img {
   .bg-box {
     width: 850px;
   }
-  
+
   .cont {
     width: 85%;
   }
@@ -460,6 +464,7 @@ img {
 
 /* Tablets (max-width: 991px) */
 @media (max-width: 991px) {
+
   /* Navigation */
   .split-nav {
     flex-direction: column;
@@ -475,106 +480,106 @@ img {
   .nav-brand {
     margin: 20px 0;
   }
-  
+
   .room-reserve-btn {
     margin-top: 1rem;
   }
-  
+
   /* Hero section */
   .hero-bg {
     height: 60vh;
     min-height: 400px;
   }
-  
+
   .bg-box {
     width: 90%;
     padding: 2rem 1.5rem;
   }
-  
+
   .hero-title {
     font-size: 36px;
   }
-  
+
   .hero-subtitle {
     font-size: 15px;
   }
-  
+
   /* Welcome section */
   .welcome-title {
     font-size: 32px;
     text-align: center !important;
     margin-top: 1.5rem;
   }
-  
+
   .welcome-text {
     font-size: 18px;
     text-align: center;
   }
-  
+
   .emblem-icon {
     width: 100px;
   }
-  
+
   /* Rooms section */
   .rooms-title {
     font-size: 32px;
   }
-  
+
   /* Packages */
   .packages-title {
     font-size: 32px;
   }
-  
+
   .package-card .row {
     flex-direction: column !important;
   }
-  
+
   .package-card .col-md-4,
   .package-card .col-md-8 {
     width: 100% !important;
     max-width: 100% !important;
   }
-  
+
   .package-card .order-md-1,
   .package-card .order-md-2 {
     order: 0 !important;
   }
-  
+
   .package-img {
     height: 280px;
   }
-  
+
   /* Amenities */
   .amenities-title {
     font-size: 32px;
   }
-  
+
   /* Reservation */
   .cont {
     width: 90%;
     padding: 2rem 1.5rem;
   }
-  
+
   .reservation-title {
     font-size: 32px;
   }
-  
+
   .reservation-inline-form {
     flex-direction: column !important;
     align-items: stretch !important;
   }
-  
-  .reservation-inline-form > div {
+
+  .reservation-inline-form>div {
     width: 100%;
     margin-bottom: 1rem;
   }
-  
+
   .reservation-inline-form .form-control,
   .reservation-inline-form .form-select {
     width: 100%;
     min-width: 100%;
   }
-  
+
   .reserveImg {
     width: 80%;
   }
@@ -582,12 +587,13 @@ img {
 
 /* Mobile phones (max-width: 768px) */
 @media (max-width: 768px) {
+
   /* Hero section */
   .hero-bg {
     height: 50vh;
     min-height: 350px;
   }
-  
+
   .hero-title {
     font-size: 28px;
   }
@@ -595,7 +601,7 @@ img {
   .hero-subtitle {
     font-size: 14px;
   }
-  
+
   .bg-box {
     width: 95%;
     padding: 1.5rem 1rem;
@@ -605,15 +611,15 @@ img {
   .welcome-title {
     font-size: 28px;
   }
-  
+
   .welcome-text {
     font-size: 16px;
   }
-  
+
   .emblem-icon {
     width: 80px;
   }
-  
+
   .emblem-label {
     font-size: 18px;
   }
@@ -622,11 +628,11 @@ img {
   .rooms-title {
     font-size: 28px;
   }
-  
+
   .room-name {
     font-size: 22px;
   }
-  
+
   .room-img {
     height: 200px;
   }
@@ -635,19 +641,19 @@ img {
   .packages-title {
     font-size: 28px;
   }
-  
+
   .package-img {
     height: 220px;
   }
-  
+
   .package-name {
     font-size: 20px;
   }
-  
+
   .package-price {
     font-size: 15px;
   }
-  
+
   .package-desc {
     font-size: 14px;
   }
@@ -656,11 +662,11 @@ img {
   .amenities-title {
     font-size: 28px;
   }
-  
+
   .amenities-intro {
     font-size: 16px;
   }
-  
+
   .amenity-icon {
     width: 50px;
     height: 50px;
@@ -669,7 +675,7 @@ img {
   .amenity-label {
     font-size: 16px;
   }
-  
+
   /* Show amenities in 2 columns on mobile */
   .amenities-section .col-md-3 {
     flex: 0 0 50%;
@@ -681,21 +687,21 @@ img {
     width: 95%;
     padding: 1.5rem 1rem;
   }
-  
+
   .reservation-title {
     font-size: 28px;
   }
-  
+
   .reservation-inline-section {
     height: auto;
     padding: 2rem 0;
     margin-bottom: 40px;
   }
-  
+
   .reserveImg {
     width: 95%;
   }
-  
+
   .reservation-inline-form input,
   .reservation-inline-form select {
     font-size: 15px;
@@ -715,16 +721,16 @@ img {
   .dining-title {
     font-size: 28px;
   }
-  
+
   /* Footer */
   .bottomNAV {
     padding-bottom: 30px;
   }
-  
+
   .bottomNAV img {
     max-width: 120px;
   }
-  
+
   .footer {
     font-size: 0.85rem;
     padding-top: 2rem;
@@ -734,6 +740,7 @@ img {
 
 /* Small mobile phones (max-width: 480px) */
 @media (max-width: 480px) {
+
   /* Hero section */
   .hero-title {
     font-size: 24px;
@@ -742,11 +749,11 @@ img {
   .hero-subtitle {
     font-size: 13px;
   }
-  
+
   .bg-box {
     padding: 1rem;
   }
-  
+
   /* All section titles */
   .welcome-title,
   .rooms-title,
@@ -756,74 +763,74 @@ img {
   .dining-title {
     font-size: 24px;
   }
-  
+
   /* Welcome section */
   .welcome-text {
     font-size: 15px;
   }
-  
+
   .emblem-icon {
     width: 70px;
   }
-  
+
   /* Logo */
   .logo-img {
     width: 60px;
   }
-  
+
   /* Navigation */
   .nav-link {
     font-size: 1.1rem;
   }
-  
+
   /* Rooms */
   .room-name {
     font-size: 20px;
   }
-  
+
   .room-details li {
     font-size: 14px;
   }
-  
+
   /* Packages */
   .package-img {
     height: 180px;
   }
-  
+
   .package-name {
     font-size: 18px;
   }
-  
+
   /* Amenities */
   .amenities-intro {
     font-size: 15px;
   }
-  
+
   .amenity-icon {
     width: 45px;
     height: 45px;
   }
-  
+
   .amenity-label {
     font-size: 14px;
   }
-  
+
   /* Reservation */
   .reservation-title {
     font-size: 24px;
   }
-  
+
   .reserve-btn,
   .room-reserve-btn {
     padding: 0.5rem 1.2rem;
     font-size: 0.9rem;
   }
-  
+
   /* Footer */
   .bottomNAV img {
     max-width: 100px;
   }
-  
+
   .footer {
     font-size: 0.8rem;
   }
@@ -834,11 +841,11 @@ img {
   .hero-title {
     font-size: 22px;
   }
-  
+
   .bg-box {
     padding: 0.75rem;
   }
-  
+
   .welcome-title,
   .rooms-title,
   .packages-title,
@@ -855,15 +862,15 @@ img {
     min-height: 300px;
     padding: 2rem 0;
   }
-  
+
   .bg-box {
     padding: 1rem;
   }
-  
+
   .hero-title {
     font-size: 24px;
   }
-  
+
   .hero-subtitle {
     font-size: 13px;
   }
