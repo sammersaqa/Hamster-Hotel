@@ -113,11 +113,12 @@ img {
 }
 
 .bg-box {
-  background: linear-gradient(rgba(27, 13, 151, 0.633), rgba(0, 76, 199, 0.4));
-  width: 1000px;
+  background: linear-gradient(rgba(10, 2, 82, 0.633), #000032);
+  width: 1200px;
   max-width: 90%;
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
+
 }
 
 /* =========================================================
