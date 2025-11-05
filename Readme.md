@@ -12,8 +12,6 @@
 - Created inline reservation form with background image  
 - Styled buttons and inputs to match Adobe XD design
 
----
-
 ### Additional Revision History
 
 # Wednesday, November 5, 2025  
