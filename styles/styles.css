@@ -40,13 +40,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
-.navbar-nav.flex-row {
+.navbar-nav {
   gap: 16px;
 }
 
-.navbar-nav.flex-row .nav-item {
+.navbar-nav .nav-item {
   margin: 0;
 }
 
@@ -55,6 +56,11 @@ img {
   font-size: 1.25rem;
   font-weight: 600;
   color: #ffffff !important;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+  color: #3498db !important;
 }
 
 .nav-brand {
@@ -62,6 +68,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
 .bottomNAV {
