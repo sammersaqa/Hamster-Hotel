@@ -524,6 +524,7 @@ img {
 
   background-color: #ffffff;
 
+
 }
 
 
@@ -572,7 +573,7 @@ img {
 
   font-weight: 600;
 
-  color: #004CC7;
+  color: black;
 
   margin-bottom: 10px;
 
@@ -588,7 +589,7 @@ img {
 
   font-weight: 600;
 
-  color: #1A1B26;
+  color:#0039a6;
 
   margin-bottom: 10px;
 
@@ -1087,20 +1088,6 @@ img {
     font-size: 32px;
 
   }
-
-
-
-  /* Reservation */
-
-  /* .cont {
-
-    width: 90%;
-
-    padding: 2rem 1.5rem;
-
-  } */
-
-
 
   .reservation-title {
 
