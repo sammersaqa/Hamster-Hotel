@@ -14,8 +14,16 @@
 
 ### Additional Revision History
 
-# Wednesday, November 5, 2025  
+# Thursday, November 6, 2025
+- Corrected the reservation section layout by moving image and content into structured columns and rows
+- Lowers contents of navbar to match logo
+- Corrected error names in navbar
 - Made the website mobile and tablet responsive  
+
+
+
+# Wednesday, November 5, 2025  
+
 - Adjusted layout so sections stack properly on smaller screens  
 - Scaled fonts and spacing for better readability  
 - Built amenities section with icons and intro text  
@@ -31,7 +39,7 @@
 
 # Monday, November 3, 2025  
 - Set up base HTML and CSS files  
-- Linked Google Fonts (Dosis and Source Sans Pro)  
+- Linked Google Fonts ('Source Sans Pro', sans-serif)  
 - Created header navigation and hero section with background image
 
 ### Person Who Peer Reviewed Your Assignment  
