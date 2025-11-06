@@ -1,885 +1,1741 @@
-/* =========================================================
-   BASE STYLES
-========================================================= */
-body {
+=========================================================BASE STYLES=========================================================*/ body {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   background-color: #ffffff;
+
   color: #1A1B26;
+
 }
+
+
 
 h1,
+
 h2,
+
 h3 {
+
   font-family: 'Dosis', sans-serif;
+
   font-weight: 600;
+
 }
+
+
 
 img {
+
   max-width: 100%;
+
   height: auto;
+
 }
 
+
+
 /* =========================================================
+
    LOGO
+
 ========================================================= */
+
 .logo-img {
+
   width: 125px;
+
   height: auto;
+
 }
 
+
+
 /* =========================================================
+
    HEADER & NAVBAR
+
 ========================================================= */
+
 .custom-header {
+
   background-color: #000032;
+
 }
+
+
 
 .split-nav {
-    /* Keep existing flex and center alignment */
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center; /* This now centers the nav links on the middle of the logo container */
-    justify-content: center;
+
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
 }
 
-.logo-center-container {
-    /* Make the container flexible to stack the image and text */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the image and text horizontally */
-    margin: 0 10px; /* Keep existing margin */
-    /* **CRITICAL FIX:** Remove any default Bootstrap margin or padding that might offset it */
-    padding: 0;
-}
+
 
 .navbar-nav {
+
   gap: 16px;
+
 }
+
+
 
 .navbar-nav .nav-item {
+
   margin: 0;
+
 }
+
+
 
 .nav-link {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 1rem;
+
   font-weight: 600;
+
   color: #ffffff !important;
+
   padding: 0.5rem 1rem;
+
 }
+
+
 
 .nav-link:hover {
+
   color: #3498db !important;
+
 }
+
+
 
 .nav-brand {
+
   margin: 0 10px;
+
   display: flex;
+
   align-items: center;
+
   justify-content: center;
+
 }
+
+
 
 .navbar-toggler {
+
   border-color: rgba(255, 255, 255, 0.5);
+
 }
+
+
 
 .navbar-toggler:focus {
+
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+
 }
+
+
 
 .bottomNAV {
+
   padding-bottom: 50px;
+
 }
+
+
 
 .reserve {
+
   border: 2px solid #E5FEFF;
+
   opacity: 1;
+
 }
 
+
+
 /* =========================================================
+
    HERO SECTION
+
 ========================================================= */
+
 .hero-bg {
+
   background: url(/hotelMarkupAssets/header.jpg);
+
   background-position: center center;
+
   background-size: cover;
+
   height: 75vh;
+
   display: flex;
+
   align-items: center;
+
   justify-content: center;
+
   text-align: center;
+
 }
+
+
 
 .hero-title {
+
   font-size: 45px;
+
   color: #ffffff;
+
 }
+
+
 
 .hero-subtitle {
+
   font-size: 16px;
+
   color: #ffffff;
+
   margin-top: 10px;
+
 }
+
+
 
 .bg-box {
+
   background: linear-gradient(rgba(10, 2, 82, 0.633), #000032);
+
   width: 1200px;
+
   max-width: 90%;
+
   padding: 5rem;
+
   text-align: center;
 
+
+
 }
 
+
+
 /* =========================================================
+
    WELCOME SECTION
+
 ========================================================= */
+
 .welcome-section {
+
   background-color: #ffffff;
+
 }
+
+
 
 .hamster-img {
+
   max-width: 70%;
+
   border-radius: 0px;
+
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
 }
+
+
 
 .welcome-title {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 40px;
+
   font-weight: 600;
+
   color: black;
+
   margin-bottom: 20px;
+
 }
+
+
 
 .welcome-text {
+
   line-height: 1.6;
+
   text-align: left;
+
   font: normal normal normal 16px/20px Source Sans Pro;
+
   font-size: 20px;
+
   letter-spacing: 0px;
+
   color: #1A1B26;
+
   opacity: 1;
 
+
+
 }
+
+
 
 /* Emblem Icons */
+
 .emblem-icon {
+
   width: 150px;
+
   height: auto;
+
   margin-bottom: 10px;
+
 }
+
+
 
 .emblem-label {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 22px;
+
   font-weight: 500;
+
   color: #1A1B26;
+
 }
 
+
+
 /* =========================================================
+
    FEATURES SECTION
+
 ========================================================= */
+
 .features-section {
+
   background-color: #E5FEFF;
+
 }
+
+
 
 .feature-icon {
+
   width: 60px;
+
   height: 60px;
+
   margin-bottom: 10px;
+
 }
+
+
 
 .feature-label {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 20px;
+
   font-weight: 400;
+
   color: #1A1B26;
+
 }
 
+
+
 /* =========================================================
+
    ROOMS SECTION
+
 ========================================================= */
+
 .rooms-section {
+
   background-color: #ffffff;
+
   background-image: url(/hotelMarkupAssets/bg2.jpg);
+
   background-size: cover;
+
   background-position: center;
+
   background-repeat: no-repeat;
+
 }
+
+
 
 .rooms-title {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 36px;
+
   font-weight: 600;
+
   color: white;
+
 }
+
+
 
 .room-card {
+
   background-color: white;
+
   border-radius: 8px;
+
   overflow: hidden;
+
 }
+
+
 
 .room-img {
+
   width: 100%;
+
   height: 250px;
+
   object-fit: cover;
+
   border-radius: 0px;
+
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
 }
+
+
 
 .room-name {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 24px;
+
   font-weight: 600;
+
   color: #004CC7;
+
   margin-bottom: 15px;
+
 }
+
+
 
 .room-size {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 16px;
+
   color: #1A1B26;
+
   font-weight: 600;
+
 }
+
+
 
 .room-details {
+
   margin: 1rem 0;
+
 }
+
+
 
 .room-details li {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 16px;
+
   color: #1A1B26;
+
   margin-bottom: 5px;
+
 }
+
+
 
 /* Room Reserve Button */
+
 .rooms-section .btn,
+
 .room-reserve-btn {
+
   background-color: #004CC7;
+
   color: #ffffff;
+
   border: none;
+
   border-radius: 0;
+
   padding: 0.6rem 1.5rem;
+
   font-weight: 600;
+
   font-size: 1rem;
+
   text-transform: uppercase;
+
   transition: background-color 0.3s ease;
+
 }
+
+
 
 .rooms-section .btn:hover,
+
 .room-reserve-btn:hover {
+
   background-color: #0039a6;
+
   color: #ffffff;
+
 }
 
+
+
 /* =========================================================
+
    PACKAGES SECTION
+
 ========================================================= */
+
 .packages-section {
+
   background-color: #ffffff;
+
 }
+
+
 
 .packages-title {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 36px;
+
   font-weight: 600;
+
   color: #1A1B26;
+
 }
+
+
 
 .package-card {
+
   background-color: white;
+
   overflow: hidden;
+
 }
+
+
 
 .package-img {
+
   height: 220px;
+
   width: 100%;
+
   object-fit: cover;
+
 }
+
+
 
 .package-name {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 22px;
+
   font-weight: 600;
+
   color: #004CC7;
+
   margin-bottom: 10px;
+
 }
+
+
 
 .package-price {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 16px;
+
   font-weight: 600;
+
   color: #1A1B26;
+
   margin-bottom: 10px;
+
 }
+
+
 
 .package-desc {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 15px;
+
   color: #1A1B26;
+
   line-height: 1.5;
+
 }
 
+
+
 /* =========================================================
+
    AMENITIES SECTION
+
 ========================================================= */
+
 .amenities-section {
+
   background-image: url(/hotelMarkupAssets/bg.jpg);
+
   background-size: cover;
+
   background-repeat: no-repeat;
+
   background-position: center;
+
   margin-bottom: 70px;
+
 }
+
+
 
 .amenities-title {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 36px;
+
   font-weight: 600;
+
   color: white;
+
 }
+
+
 
 .amenities-intro {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 18px;
+
   color: #ffffff;
+
   max-width: 700px;
+
   margin: 0 auto 2rem;
+
   line-height: 1.6;
+
 }
+
+
 
 .amenity-icon {
+
   width: 60px;
+
   height: 60px;
+
   margin-bottom: 10px;
+
 }
+
+
 
 .amenity-label {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 18px;
+
   font-weight: 500;
+
   color: white;
+
 }
 
+
+
 /* =========================================================
+
    RESERVATION SECTION
+
 ========================================================= */
+
 .cont {
+
   background-color: #000324;
-  width: 62.5%;
+
+  width: 75%;
+
   padding: 2rem;
+
   padding-bottom: 5px;
+
   margin: 0 auto;
+
 }
+
+
 
 .reservation-inline-section {
+
   height: 600px;
+
   padding: 5rem 0;
+
   margin-bottom: 80px;
+
 }
+
+
 
 .reserveImg {
-  width: 62.7%;
-  max-width: 100%;
-  height: auto;
+
+  width: 34.7% ;
+
+  
+
+  /* height: auto; */
+
 }
+
+
 
 .reservation-title {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 36px;
+
   font-weight: 600;
+
   color: white;
+
 }
+
+
 
 .reservation-inline-form .form-label {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   font-weight: 600;
+
   margin-bottom: 5px;
+
 }
+
+
 
 .reservation-inline-form input,
+
 .reservation-inline-form select {
+
   font-family: 'Source Sans Pro', sans-serif;
+
   font-size: 16px;
+
   padding: 0.5rem;
+
   border-radius: 6px;
+
   border: 1px solid #ccc;
+
   min-width: 160px;
+
 }
+
+
 
 .reserve-btn {
+
   background-color: #004CC7;
+
   color: #ffffff;
+
   border: none;
+
   border-radius: 0;
+
   padding: 0.6rem 1.5rem;
+
   font-weight: 600;
+
   font-size: 1rem;
+
   text-transform: uppercase;
+
   transition: background-color 0.3s ease;
+
 }
+
+
 
 .reserve-btn:hover {
+
   background-color: #0039a6;
+
 }
 
+
+
 /* =========================================================
+
    DINING SECTION
+
 ========================================================= */
+
 .dining-title {
+
   font-family: 'Dosis', sans-serif;
+
   font-size: 35px;
+
   color: #1A1B26;
+
 }
+
+
 
 .dining-section img {
+
   border-radius: 12px;
+
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
 }
 
+
+
 /* =========================================================
+
    FOOTER
+
 ========================================================= */
+
 .footer {
+
   background-color: #000032;
+
   color: #ffffff;
+
   font-size: 0.9rem;
+
   padding-top: 3rem;
+
   padding-bottom: 3rem;
+
 }
+
+
 
 .bottomNAV img {
+
   max-width: 150px;
+
   height: auto;
+
 }
+
+
 
 /* =========================================================
+
    RESPONSIVE DESIGN - TABLETS AND BELOW
+
 ========================================================= */
 
+
+
 /* Large tablets and small desktops (max-width: 1199px) */
+
 @media (max-width: 1199px) {
+
   .bg-box {
+
     width: 850px;
+
   }
 
+
+
   .cont {
+
     width: 85%;
+
   }
+
 }
+
+
 
 /* Tablets (max-width: 991px) */
+
 @media (max-width: 991px) {
 
+
+
   /* Navigation */
+
   .split-nav {
+
     flex-direction: column;
+
     align-items: center;
+
   }
+
+
 
   .navbar-nav.flex-row {
+
     flex-direction: column;
+
     gap: 10px;
+
     text-align: center;
+
   }
+
+
 
   .nav-brand {
+
     margin: 20px 0;
+
   }
+
+
 
   .room-reserve-btn {
+
     margin-top: 1rem;
+
   }
+
+
 
   /* Hero section */
+
   .hero-bg {
+
     height: 60vh;
+
     min-height: 400px;
+
   }
+
+
 
   .bg-box {
+
     width: 90%;
+
     padding: 2rem 1.5rem;
+
   }
+
+
 
   .hero-title {
+
     font-size: 36px;
+
   }
+
+
 
   .hero-subtitle {
+
     font-size: 15px;
+
   }
+
+
 
   /* Welcome section */
+
   .welcome-title {
+
     font-size: 32px;
+
     text-align: center !important;
+
     margin-top: 1.5rem;
+
   }
+
+
 
   .welcome-text {
+
     font-size: 18px;
+
     text-align: center;
+
   }
+
+
 
   .emblem-icon {
+
     width: 100px;
+
   }
+
+
 
   /* Rooms section */
+
   .rooms-title {
+
     font-size: 32px;
+
   }
 
+
+
   /* Packages */
+
   .packages-title {
+
     font-size: 32px;
+
   }
+
+
 
   .package-card .row {
+
     flex-direction: column !important;
+
   }
+
+
 
   .package-card .col-md-4,
+
   .package-card .col-md-8 {
+
     width: 100% !important;
+
     max-width: 100% !important;
+
   }
+
+
 
   .package-card .order-md-1,
+
   .package-card .order-md-2 {
+
     order: 0 !important;
+
   }
+
+
 
   .package-img {
+
     height: 280px;
+
   }
+
+
 
   /* Amenities */
+
   .amenities-title {
+
     font-size: 32px;
+
   }
+
+
 
   /* Reservation */
+
   .cont {
+
     width: 90%;
+
     padding: 2rem 1.5rem;
+
   }
 
+
+
   .reservation-title {
+
     font-size: 32px;
+
   }
+
+
 
   .reservation-inline-form {
+
     flex-direction: column !important;
+
     align-items: stretch !important;
+
   }
+
+
 
   .reservation-inline-form>div {
+
     width: 100%;
+
     margin-bottom: 1rem;
+
   }
+
+
 
   .reservation-inline-form .form-control,
+
   .reservation-inline-form .form-select {
+
     width: 100%;
+
     min-width: 100%;
+
   }
 
+
+
   .reserveImg {
+
     width: 80%;
+
   }
+
 }
+
+
 
 /* Mobile phones (max-width: 768px) */
+
 @media (max-width: 768px) {
 
+
+
   /* Hero section */
+
   .hero-bg {
+
     height: 50vh;
+
     min-height: 350px;
+
   }
+
+
 
   .hero-title {
+
     font-size: 28px;
+
   }
+
+
 
   .hero-subtitle {
+
     font-size: 14px;
+
   }
+
+
 
   .bg-box {
+
     width: 95%;
+
     padding: 1.5rem 1rem;
+
   }
+
+
 
   /* Welcome section */
+
   .welcome-title {
+
     font-size: 28px;
+
   }
+
+
 
   .welcome-text {
+
     font-size: 16px;
+
   }
 
+
+
   .emblem-icon {
+
     width: 80px;
+
   }
+
+
 
   .emblem-label {
+
     font-size: 18px;
+
   }
+
+
 
   /* Rooms section */
+
   .rooms-title {
+
     font-size: 28px;
+
   }
 
+
+
   .room-name {
+
     font-size: 22px;
+
   }
+
+
 
   .room-img {
+
     height: 200px;
+
   }
+
+
 
   /* Packages section */
+
   .packages-title {
+
     font-size: 28px;
+
   }
+
+
 
   .package-img {
+
     height: 220px;
+
   }
 
+
+
   .package-name {
+
     font-size: 20px;
+
   }
+
+
 
   .package-price {
+
     font-size: 15px;
+
   }
+
+
 
   .package-desc {
+
     font-size: 14px;
+
   }
+
+
 
   /* Amenities section */
+
   .amenities-title {
+
     font-size: 28px;
+
   }
+
+
 
   .amenities-intro {
+
     font-size: 16px;
+
   }
+
+
 
   .amenity-icon {
+
     width: 50px;
+
     height: 50px;
+
   }
 
+
+
   .amenity-label {
+
     font-size: 16px;
+
   }
+
+
 
   /* Show amenities in 2 columns on mobile */
+
   .amenities-section .col-md-3 {
+
     flex: 0 0 50%;
+
     max-width: 50%;
+
   }
+
+
 
   /* Reservation section */
+
   .cont {
+
     width: 95%;
+
     padding: 1.5rem 1rem;
+
   }
 
+
+
   .reservation-title {
+
     font-size: 28px;
+
   }
+
+
 
   .reservation-inline-section {
+
     height: auto;
+
     padding: 2rem 0;
+
     margin-bottom: 40px;
+
   }
+
+
 
   .reserveImg {
+
     width: 95%;
+
   }
+
+
 
   .reservation-inline-form input,
+
   .reservation-inline-form select {
+
     font-size: 15px;
+
   }
+
+
 
   /* Feature icons */
+
   .feature-icon {
+
     width: 50px;
+
     height: 50px;
+
   }
+
+
 
   .feature-label {
+
     font-size: 16px;
+
   }
+
+
 
   /* Dining */
+
   .dining-title {
+
     font-size: 28px;
+
   }
+
+
 
   /* Footer */
+
   .bottomNAV {
+
     padding-bottom: 30px;
+
   }
+
+
 
   .bottomNAV img {
+
     max-width: 120px;
+
   }
 
+
+
   .footer {
+
     font-size: 0.85rem;
+
     padding-top: 2rem;
+
     padding-bottom: 2rem;
+
   }
+
 }
+
+
 
 /* Small mobile phones (max-width: 480px) */
+
 @media (max-width: 480px) {
 
+
+
   /* Hero section */
+
   .hero-title {
+
     font-size: 24px;
+
   }
+
+
 
   .hero-subtitle {
+
     font-size: 13px;
+
   }
 
+
+
   .bg-box {
+
     padding: 1rem;
+
   }
+
+
 
   /* All section titles */
+
   .welcome-title,
+
   .rooms-title,
+
   .packages-title,
+
   .amenities-title,
+
   .reservation-title,
+
   .dining-title {
+
     font-size: 24px;
+
   }
+
+
 
   /* Welcome section */
+
   .welcome-text {
+
     font-size: 15px;
+
   }
+
+
 
   .emblem-icon {
+
     width: 70px;
+
   }
+
+
 
   /* Logo */
+
   .logo-img {
-    width: 60px;
+
+    width: 75px;
+
   }
+
+
 
   /* Navigation */
+
   .nav-link {
+
     font-size: 1.1rem;
+
   }
+
+
 
   /* Rooms */
+
   .room-name {
+
     font-size: 20px;
+
   }
+
+
 
   .room-details li {
+
     font-size: 14px;
+
   }
+
+
 
   /* Packages */
+
   .package-img {
+
     height: 180px;
+
   }
+
+
 
   .package-name {
+
     font-size: 18px;
+
   }
+
+
 
   /* Amenities */
+
   .amenities-intro {
+
     font-size: 15px;
+
   }
+
+
 
   .amenity-icon {
+
     width: 45px;
+
     height: 45px;
+
   }
+
+
 
   .amenity-label {
+
     font-size: 14px;
+
   }
+
+
 
   /* Reservation */
+
   .reservation-title {
+
     font-size: 24px;
+
   }
+
+
 
   .reserve-btn,
+
   .room-reserve-btn {
+
     padding: 0.5rem 1.2rem;
+
     font-size: 0.9rem;
+
   }
+
+
 
   /* Footer */
+
   .bottomNAV img {
+
     max-width: 100px;
+
   }
+
+
 
   .footer {
+
     font-size: 0.8rem;
+
   }
+
 }
+
+
 
 /* Extra small phones (max-width: 375px) */
+
 @media (max-width: 375px) {
+
   .hero-title {
+
     font-size: 22px;
+
   }
 
+
+
   .bg-box {
+
     padding: 0.75rem;
+
   }
+
+
 
   .welcome-title,
+
   .rooms-title,
+
   .packages-title,
+
   .amenities-title,
+
   .reservation-title {
+
     font-size: 22px;
+
   }
+
 }
 
+
+
 /* Landscape orientation for mobile */
+
 @media (max-height: 500px) and (orientation: landscape) {
+
   .hero-bg {
+
     height: auto;
+
     min-height: 300px;
+
     padding: 2rem 0;
+
   }
+
+
 
   .bg-box {
+
     padding: 1rem;
+
   }
+
+
 
   .hero-title {
+
     font-size: 24px;
+
   }
 
+
+
   .hero-subtitle {
+
     font-size: 13px;
+
   }
+
 }
