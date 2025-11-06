@@ -35,11 +35,22 @@ img {
 }
 
 .split-nav {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    /* Keep existing flex and center alignment */
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; /* This now centers the nav links on the middle of the logo container */
+    justify-content: center;
+}
+
+.logo-center-container {
+    /* Make the container flexible to stack the image and text */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the image and text horizontally */
+    margin: 0 10px; /* Keep existing margin */
+    /* **CRITICAL FIX:** Remove any default Bootstrap margin or padding that might offset it */
+    padding: 0;
 }
 
 .navbar-nav {
