@@ -70,31 +70,18 @@ img {
 .split-nav {
 
   max-width: 1000px;
-
   margin: 0 auto;
-
   display: flex;
-
-  align-items: center;
-
+  align-items: flex-end;
+  /* This aligns the items (links) to the bottom of the container (which contains the logo) */
   justify-content: center;
 
-}
-
-
-
-.navbar-nav {
-
-  gap: 16px;
 
 }
-
-
 
 .navbar-nav .nav-item {
-
-  margin: 0;
-
+  /* Set a larger margin/padding on the items to push them down */
+  margin-top: 10px;
 }
 
 
@@ -112,8 +99,6 @@ img {
   padding: 0.5rem 1rem;
 
 }
-
-
 
 .nav-link:hover {
 
@@ -200,6 +185,7 @@ img {
 
 
 .hero-title {
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 45px;
 
@@ -210,6 +196,7 @@ img {
 
 
 .hero-subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 16px;
 
@@ -267,7 +254,7 @@ img {
 
 .welcome-title {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 40px;
 
@@ -359,7 +346,7 @@ img {
 
 .feature-label {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 20px;
 
@@ -395,7 +382,7 @@ img {
 
 .rooms-title {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 36px;
 
@@ -437,7 +424,7 @@ img {
 
 .room-name {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 24px;
 
@@ -543,7 +530,7 @@ img {
 
 .packages-title {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 36px;
 
@@ -579,7 +566,7 @@ img {
 
 .package-name {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 22px;
 
@@ -647,7 +634,7 @@ img {
 
 .amenities-title {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 36px;
 
@@ -691,7 +678,7 @@ img {
 
 .amenity-label {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 18px;
 
@@ -736,15 +723,12 @@ img {
 }
 
 
+.reserveColor {
+  background-color: #000032;
+}
 
-.reserveImg {
-
-  width: 75% ;
-
-  
-
-  /* height: auto; */
-
+.reserveCont {
+  width: 75%;
 }
 
 
@@ -825,6 +809,10 @@ img {
 
 }
 
+.text {
+  text-align: center;
+}
+
 
 
 /* =========================================================
@@ -835,7 +823,7 @@ img {
 
 .dining-title {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 
   font-size: 35px;
 
@@ -907,11 +895,11 @@ img {
 
 
 
-  .cont {
+  /* .cont {
 
     width: 85%;
 
-  }
+  } */
 
 }
 
@@ -1103,13 +1091,13 @@ img {
 
   /* Reservation */
 
-  .cont {
+  /* .cont {
 
     width: 90%;
 
     padding: 2rem 1.5rem;
 
-  }
+  } */
 
 
 
@@ -1358,14 +1346,6 @@ img {
 
 
   /* Reservation section */
-
-  .cont {
-
-    width: 95%;
-
-    padding: 1.5rem 1rem;
-
-  }
 
 
 
