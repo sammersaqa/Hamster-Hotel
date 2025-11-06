@@ -210,7 +210,9 @@ img {
 
 .bg-box {
 
-  background: linear-gradient(rgba(10, 2, 82, 0.633), #000032);
+  background: #000324 0% 0% no-repeat padding-box;
+
+  opacity: 0.8;
 
   width: 1200px;
 
