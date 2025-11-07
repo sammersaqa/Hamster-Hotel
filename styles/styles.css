@@ -538,7 +538,7 @@ img {
 .packages-title {
 
   text-align: left;
-  font: normal normal normal 25px/32px 'Dosis';
+  font: normal normal normal 35px 'Dosis';
   letter-spacing: 0px;
   color: #1A1B26;
   opacity: 1;
@@ -727,7 +727,9 @@ height: 234px;
 }
 
 .reserveCont {
+
   width: 75%;
+  
 }
 
 
