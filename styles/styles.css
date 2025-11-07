@@ -528,7 +528,7 @@ img {
 
 .packages-section {
 
-  background-color: #ffffff;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
 
 
 }
@@ -537,13 +537,11 @@ img {
 
 .packages-title {
 
-  font-family: "Dosis", sans-serif;
-
-  font-size: 36px;
-
-  font-weight: 400;
-
+  text-align: left;
+  font: normal normal normal 25px/32px 'Dosis';
+  letter-spacing: 0px;
   color: #1A1B26;
+  opacity: 1;
 
 }
 
@@ -551,9 +549,7 @@ img {
 
 .package-card {
 
-  background-color: white;
-
-  overflow: hidden;
+  background-color: white;  
 
 }
 
@@ -561,9 +557,10 @@ img {
 
 .package-img {
 
-  height: 220px;
-
-  width: 100%;
+top: 2378px;
+left: 966px;
+width: 561px;
+height: 234px;
 
   object-fit: cover;
 
@@ -573,13 +570,11 @@ img {
 
 .package-name {
 
-  font-family: "Dosis", sans-serif;
-
-  font-size: 22px;
-
-  font-weight: lighter;
-
-  color: black;
+  text-align: left;
+  font: normal normal normal 25px/32px 'Dosis';
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
 
   margin-bottom: 10px;
 
@@ -589,13 +584,11 @@ img {
 
 .package-price {
 
-  font-family: "Dosis", sans-serif;
-
-  font-size: 16px;
-
-  font-weight: lighter;
-
-  color: #0039a6;
+  text-align: left;
+  font: normal normal lighter 16px/20px 'Source Sans Pro';
+  letter-spacing: 0px;
+  color: #1F51A8;
+  opacity: 1;
 
   margin-bottom: 10px;
 
@@ -605,13 +598,11 @@ img {
 
 .package-desc {
 
-  font-family: "Dosis", sans-serif;
-
-  font-size: 16px;
-
+  text-align: left;
+  font: normal normal normal 16px/20px 'Source Sans Pro';
+  letter-spacing: 0px;
   color: #1A1B26;
-
-  line-height: 1.5;
+  opacity: 1;
 
 }
 
