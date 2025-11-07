@@ -1,6 +1,6 @@
 ### Sammer Saqa
 
-### Date Revised: Wednesday, November 5, 2025
+### Date Revised: Thursday, November 6, 2025
 
 ### Exercise or Lab Name: Hamster Hotel
 
