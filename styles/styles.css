@@ -3,7 +3,7 @@
 
 body {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   background-color: #ffffff;
 
@@ -88,11 +88,11 @@ img {
 
 .nav-link {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
-  font-size: 1rem;
+  font-size: 20px;
 
-  font-weight: 600;
+  font-weight: lighter;
 
   color: #ffffff !important;
 
@@ -185,9 +185,11 @@ img {
 
 
 .hero-title {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 45px;
+
+  font-weight: lighter;
 
   color: #ffffff;
 
@@ -196,9 +198,11 @@ img {
 
 
 .hero-subtitle {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 16px;
+
+  font-weight: lighter;
 
   color: #ffffff;
 
@@ -252,11 +256,11 @@ img {
 
 .welcome-title {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
-  font-size: 40px;
+  font-size: 36px;
 
-  font-weight: 600;
+  font-weight: lighter;
 
   color: black;
 
@@ -272,7 +276,7 @@ img {
 
   text-align: left;
 
-  font: normal normal normal 16px/20px Source Sans Pro;
+  font: normal normal normal 16px/20px Source Sans Pro, Regular;
 
   font-size: 20px;
 
@@ -380,11 +384,11 @@ img {
 
 .rooms-title {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 36px;
 
-  font-weight: 600;
+  font-weight: lighter;
 
   color: white;
 
@@ -422,13 +426,13 @@ img {
 
 .room-name {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 24px;
 
-  font-weight: 600;
+  font-weight: lighter;
 
-  color: #004CC7;
+  color: black;
 
   margin-bottom: 15px;
 
@@ -438,9 +442,11 @@ img {
 
 .room-size {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 16px;
+
+  text-align: left;
 
   color: #1A1B26;
 
@@ -460,9 +466,11 @@ img {
 
 .room-details li {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 16px;
+
+  text-align: left;
 
   color: #1A1B26;
 
@@ -529,11 +537,11 @@ img {
 
 .packages-title {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 36px;
 
-  font-weight: 600;
+  font-weight: 400;
 
   color: #1A1B26;
 
@@ -565,11 +573,11 @@ img {
 
 .package-name {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 22px;
 
-  font-weight: 600;
+  font-weight: lighter;
 
   color: black;
 
@@ -581,13 +589,13 @@ img {
 
 .package-price {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 16px;
 
-  font-weight: 600;
+  font-weight: lighter;
 
-  color:#0039a6;
+  color: #0039a6;
 
   margin-bottom: 10px;
 
@@ -597,9 +605,9 @@ img {
 
 .package-desc {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
-  font-size: 15px;
+  font-size: 16px;
 
   color: #1A1B26;
 
@@ -633,11 +641,11 @@ img {
 
 .amenities-title {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 36px;
 
-  font-weight: 600;
+  font-weight: lighter;
 
   color: white;
 
@@ -647,13 +655,13 @@ img {
 
 .amenities-intro {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Dosis", sans-serif;
 
-  font-size: 18px;
+  font-size: 16px;
 
   color: #ffffff;
 
-  max-width: 700px;
+  max-width: 750px;
 
   margin: 0 auto 2rem;
 
@@ -677,11 +685,11 @@ img {
 
 .amenity-label {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', Bold;
 
-  font-size: 18px;
+  font-size: 20px;
 
-  font-weight: 500;
+  font-weight: 600;
 
   color: white;
 
@@ -735,11 +743,11 @@ img {
 
 .reservation-title {
 
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 
   font-size: 36px;
 
-  font-weight: 600;
+  font-weight: lighter;
 
   color: white;
 
@@ -749,9 +757,11 @@ img {
 
 .reservation-inline-form .form-label {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro, Regular';
 
-  font-weight: 600;
+  font-weight: lighter;
+
+  text-align: left;
 
   margin-bottom: 5px;
 
@@ -763,9 +773,13 @@ img {
 
 .reservation-inline-form select {
 
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro, Regular';
 
   font-size: 16px;
+
+  font-weight: lighter;
+
+  text-align: left;
 
   padding: 0.5rem;
 
@@ -812,35 +826,6 @@ img {
 .text {
   text-align: center;
 }
-
-
-
-/* =========================================================
-
-   DINING SECTION
-
-========================================================= */
-
-.dining-title {
-
-  font-family: 'Source Sans Pro', sans-serif;
-
-  font-size: 35px;
-
-  color: #1A1B26;
-
-}
-
-
-
-.dining-section img {
-
-  border-radius: 12px;
-
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
-}
-
 
 
 /* =========================================================
