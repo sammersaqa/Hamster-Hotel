@@ -296,11 +296,12 @@ img {
 
 .emblem-icon {
 
-  width: 150px;
-
-  height: auto;
-
-  margin-bottom: 10px;
+  top: 962px;
+  left: 776px;
+  width: 200px;
+  height: 153px;
+  background: transparent url('img/awardfinest.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
 
 }
 
@@ -528,7 +529,7 @@ img {
 
 .packages-section {
 
- background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
 
 
 }
@@ -549,7 +550,7 @@ img {
 
 .package-card {
 
-  background-color: white;  
+  background-color: white;
 
 }
 
@@ -557,10 +558,10 @@ img {
 
 .package-img {
 
-top: 2378px;
-left: 966px;
-width: 561px;
-height: 234px;
+  top: 2378px;
+  left: 966px;
+  width: 561px;
+  height: 234px;
 
   object-fit: cover;
 
