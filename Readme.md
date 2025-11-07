@@ -46,7 +46,7 @@
 - Created header navigation and hero section with background image
 
 ### Person Who Peer Reviewed Your Assignment  
-**Reviewed by:** [Name of Peer Reviewer Here]
+**Reviewed by:** [Bryce Mack]: Nice layout, seems to be an issue with images popping up, though that may just be from my side, otherwise. great layout almost exactly liek the website.
 
 
 
