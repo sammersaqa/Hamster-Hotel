@@ -14,6 +14,11 @@
 
 ### Additional Revision History
 
+# Friday, November 7, 2025
+- Downloaded the font formats used in the Adobe XD design for local hosting and fallback support
+- Fixed formatting, grammar, and spelling across all sections for consistency and clarity
+- Adjusted the container size of the “Packages” section for better layout balance
+
 # Thursday, November 6, 2025
 - Corrected the reservation section layout by moving image and content into structured columns and rows
 - Lowers contents of navbar to match logo
