@@ -25,8 +25,6 @@
 - Corrected error names in navbar
 - Made the website mobile and tablet responsive  
 
-
-
 # Wednesday, November 5, 2025  
 
 - Adjusted layout so sections stack properly on smaller screens  
@@ -49,6 +47,9 @@
 
 ### Person Who Peer Reviewed Your Assignment  
 **Reviewed by:** [Name of Peer Reviewer Here]
+
+
+
 
 
 
