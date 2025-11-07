@@ -773,9 +773,9 @@ img {
 
 .reservation-inline-form select {
 
-  font-family: 'Source Sans Pro, Regular';
+  font: normal normal normal 16px/20px 'Source Sans Pro';
 
-  font-size: 16px;
+  /* /* font-size: 16px; */
 
   font-weight: lighter;
 
@@ -840,7 +840,7 @@ img {
 
   color: #ffffff;
 
-  font-size: 0.9rem;
+ font: normal normal normal 16px/20px 'Source Sans Pro';
 
   padding-top: 3rem;
 
